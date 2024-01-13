@@ -1,0 +1,19 @@
+.btn {
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px 30px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: darkgoldenrod;
+
+  background-color: goldenrod;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: darkgoldenrod;
+}

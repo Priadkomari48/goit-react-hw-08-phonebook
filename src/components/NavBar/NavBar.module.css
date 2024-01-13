@@ -1,0 +1,20 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 5px;
+  color: blue;
+}
+
+.nav-link.nav-link--active {
+  color: maroon;
+}
+
+.nav-link.nav-link--disabled {
+  color: dimgray;
+}

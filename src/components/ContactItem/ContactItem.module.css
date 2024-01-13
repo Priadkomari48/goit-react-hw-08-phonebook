@@ -1,0 +1,11 @@
+.contact {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-grow: 1;
+}
+
+.contactName {
+  margin-right: 15px;
+}

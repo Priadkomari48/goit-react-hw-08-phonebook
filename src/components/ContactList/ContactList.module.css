@@ -1,0 +1,27 @@
+.contactList {
+  width: fit-content;
+
+  padding: 15px 30px;
+}
+
+.contact {
+  display: flex;
+  /* justify-content: center; */
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+
+  padding: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btnDeleteContact {
+  margin-left: 50px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
